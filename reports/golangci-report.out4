@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<checkstyle version="5.0">
+  <file name="src/go/HelloWorld.go">
+    <error column="6" line="17" message="`splitSkuName` is unused" severity="major" source="deadcode">
+    </error>
+    <error column="0" line="6" message="File is not `gofmt`-ed with `-s`" severity="major" source="gofmt">
+    </error>
+    <error column="14" line="12" message="G404: Use of weak random number generator (math/rand instead of crypto/rand)" severity="major" source="gosec">
+    </error>
+    <error column="2" line="19" message="assignments should only be cuddled with other assignments" severity="major" source="wsl">
+    </error>
+    <error column="2" line="20" message="only one cuddle assignment allowed before if statement" severity="major" source="wsl">
+    </error>
+  </file>
+</checkstyle>
